@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Le_Coin_Bon.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,9 +15,9 @@ namespace Le_Coin_Bon
             InitializeComponent();
         }
 
-        async void OnButtonClicked(object sender, EventArgs args)
+        async void OnInscriptionClicked(object sender, EventArgs args)
         {
-            await label.RelRotateTo(360, 1000);
+            await Navigation.PushAsync(new Form_Inscription("","","",""));
         }
     }
 }

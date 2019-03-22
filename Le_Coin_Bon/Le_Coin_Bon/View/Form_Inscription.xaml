@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Le_Coin_Bon.View.Form_Inscription">
+
+    <StackLayout Padding="20">
+            <Label Text="Création du compte" FontSize="20"></Label>
+            <Entry Placeholder="Nom..." WidthRequest="150"></Entry>
+            <Entry Placeholder="Prénom..." WidthRequest="150"></Entry>
+            <Entry Placeholder="Mot de Passe..." WidthRequest="150"></Entry>
+            <Entry Placeholder="Nom d'utilisateur..." WidthRequest="150"></Entry>
+
+            <StackLayout Orientation="Horizontal">
+            <Button BackgroundColor="Gray" TextColor="White" Text="Save" Clicked="OnSave"/>
+        </StackLayout>
+            
+    </StackLayout>
+      
+</ContentPage>
