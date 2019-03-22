@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Le_Coin_Bon.Android", "Le_Coin_Bon\Le_Coin_Bon.Android\Le_Coin_Bon.Android.csproj", "{1ADAF7D4-FBFE-4C15-A5A1-03E1DFB3D195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Le_Coin_Bon", "Le_Coin_Bon\Le_Coin_Bon\Le_Coin_Bon.csproj", "{ACEAAF35-160F-496B-B5E1-234D02131B67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ADAF7D4-FBFE-4C15-A5A1-03E1DFB3D195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADAF7D4-FBFE-4C15-A5A1-03E1DFB3D195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADAF7D4-FBFE-4C15-A5A1-03E1DFB3D195}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1ADAF7D4-FBFE-4C15-A5A1-03E1DFB3D195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADAF7D4-FBFE-4C15-A5A1-03E1DFB3D195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADAF7D4-FBFE-4C15-A5A1-03E1DFB3D195}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ACEAAF35-160F-496B-B5E1-234D02131B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEAAF35-160F-496B-B5E1-234D02131B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEAAF35-160F-496B-B5E1-234D02131B67}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ACEAAF35-160F-496B-B5E1-234D02131B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEAAF35-160F-496B-B5E1-234D02131B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEAAF35-160F-496B-B5E1-234D02131B67}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C494DC0-128B-4557-AB98-9209601DE7E3}
+	EndGlobalSection
+EndGlobal
