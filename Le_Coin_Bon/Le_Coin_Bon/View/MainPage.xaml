@@ -4,9 +4,23 @@
              xmlns:local="clr-namespace:Le_Coin_Bon"
              x:Class="Le_Coin_Bon.MainPage">
 
-    <StackLayout>
+    <StackLayout VerticalOptions="CenterAndExpand">
+        
+        <Label x:Name="label"
+               Text="Entrez votre Login Mot de Passe"
+               FontSize="Medium"
+               HorizontalOptions="Center" />
+        
         <Entry Placeholder="Username"/>
         <Entry IsPassword="true" Placeholder="Password"/>
-    </StackLayout>
 
+        <StackLayout>
+            <Button Text="Connexion"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            Clicked="OnButtonClicked" />
+        </StackLayout>
+    </StackLayout>
 </ContentPage>
+
+
